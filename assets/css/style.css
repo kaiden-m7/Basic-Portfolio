@@ -1,12 +1,21 @@
+<style>
 }
 
 .header a.active {
-  background-color: dodgerblue;
-  color: white;
+  background-color: rgb(151, 157, 163);
+  color: rgb(160, 133, 133);
 }
 
-<div class="tab">
-  <button class="tablinks" onclick="openCity(event, 'London')">London</button>
-  <button class="tablinks" onclick="openCity(event, 'Paris')">Paris</button>
-  <button class="tablinks" onclick="openCity(event, 'Tokyo')">Tokyo</button>
-</div>
+heading {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+} 
+img {
+float: left;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+  }
+  </style> 
